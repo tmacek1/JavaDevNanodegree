@@ -1,4 +1,4 @@
-package javadev;/*
+package javadev.basics;/*
     Write a method with a random string input, returns a String containing only vowels.
     Example:
 

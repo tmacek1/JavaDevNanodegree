@@ -1,4 +1,4 @@
-package javadev;
+package javadev.basics;
 
 import org.junit.Assert;
 
