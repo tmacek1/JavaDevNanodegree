@@ -1,14 +1,4 @@
-package javadev.basics;/*
-    Give a list of strings, all in lowercase, and all start with an alphabet character, please group them based on their first character.
-    If the first character is a, group them in a list 0. If the first character is ‘b’, group them in a list 1; other characters, group them in a list 2.
-
-    Example1 : input: {“bcd”, “abc”, “cde”},
-               output: [{“abc”}, {“bcd”}, {“cde”}]
-
-    Example2: Input: List: {“abc”, “bcd”, “bbb”, “ace”, “snb”, “aaaa”, “bbbbb”, “eeee”}
-              Output: [{“abc”, “ace”, “aaaa”}, {“bcd”, “bbb”, “bbbb”}, {“snb”, “eeee”}]
- */
-
+package javadev.basics;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -16,6 +6,18 @@ import java.util.List;
 public class listTutorial {
 
     public static List<String>[] groupString(List<String> input) {
+
+        /*
+        Give a list of strings, all in lowercase, and all start with an alphabet character, please group them based on their first character.
+        If the first character is a, group them in a list 0. If the first character is ‘b’, group them in a list 1; other characters, group them in a list 2.
+
+        Example1 : input: {“bcd”, “abc”, “cde”},
+                   output: [{“abc”}, {“bcd”}, {“cde”}]
+
+        Example2: Input: List: {“abc”, “bcd”, “bbb”, “ace”, “snb”, “aaaa”, “bbbbb”, “eeee”}
+                  Output: [{“abc”, “ace”, “aaaa”}, {“bcd”, “bbb”, “bbbb”}, {“snb”, “eeee”}]
+        */
+
 
         List<String> [] resultList = new List[3];
 

@@ -1,20 +1,22 @@
-package javadev.basics;/*
-
-    Complete the calculator coding question.
-
-    Give a string, and implement a calculator to evaluate a simple expression string. The expression string contains only non-negative integers, +, -, * operators.
-
-    Example1: input “1+2”, output:3
-
-    Example2: input “1+2*5”, output:11
-
- */
+package javadev.basics;
 
 import java.util.Stack;
 
 public class queueAndStackTutorial {
 
     public static int calculate(String s) {
+
+            /*
+                Complete the calculator coding question.
+
+                Give a string, and implement a calculator to evaluate a simple expression string.
+                The expression string contains only non-negative integers, +, -, * operators.
+
+                Example1: input “1+2”, output:3
+
+                Example2: input “1+2*5”, output:11
+
+             */
 
             int len;
 

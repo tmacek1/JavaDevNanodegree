@@ -1,16 +1,17 @@
-package javadev.basics;/*
-    Write a method with a random string input, returns a String containing only vowels.
-    Example:
-
-    Input: “Hello World!” -> output: “eoo”
-
-    Input: “Udacity Course” -> output: “Uaioue”
-
-*/
-
+package javadev.basics;
 public class vowelOnly {
 
     public static String vowelOnly(String input) {
+
+            /*
+                Write a method with a random string input, returns a String containing only vowels.
+                Example:
+
+                Input: “Hello World!” -> output: “eoo”
+
+                Input: “Udacity Course” -> output: “Uaioue”
+
+            */
 
         String vowel = "aeiou";
         StringBuilder sb = new StringBuilder();
