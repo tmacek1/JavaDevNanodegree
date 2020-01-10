@@ -1,3 +1,5 @@
+package javadev;
+
 import org.junit.Assert;
 
 public class vowelOnlyTest {

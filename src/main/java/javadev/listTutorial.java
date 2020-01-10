@@ -1,4 +1,4 @@
-/*
+package javadev;/*
     Give a list of strings, all in lowercase, and all start with an alphabet character, please group them based on their first character.
     If the first character is a, group them in a list 0. If the first character is ‘b’, group them in a list 1; other characters, group them in a list 2.
 
